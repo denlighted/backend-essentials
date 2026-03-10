@@ -2,7 +2,7 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Лабораторна робота №3</title>
+    <title>Lab 3</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; }
         .menu { 
@@ -25,18 +25,18 @@
     </style>
 </head>
 <body>
-    <h2>Лабораторна робота №3</h2>
-    <p><b>Тема:</b> Створення сторінки статистики сайту. Пошук інформації по сайту.</p>
+    <h2>Lab 3</h2>
+    <p><b>Theme:</b> Creating a website statistics page. Searching information on the site.</p>
     
     <div class="menu">
-        <h3>Головне меню:</h3>
+        <h3>Main Menu:</h3>
         
-        <a href="stats.php">📊 1. Статистика сайту</a>
+        <a href="stats.php">📊 1. Website Statistics</a>
         
-        <a href="search.php">🔍 2. Пошук інформації</a>
+        <a href="search.php">🔍 2. Search Information</a>
         
         <hr>
-        <a href="../lab2/index.php" class="back-link">🔙 Перейти до керування даними (Лаб. 2)</a>
+        <a href="../lab2/index.php" class="back-link">🔙 Back to Data Management (Lab 2)</a>
     </div>
 </body>
 </html>
