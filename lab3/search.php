@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && !empty($search_type)) {
                 <h4>2. By Pattern (Part of Last Name)</h4>
                 <form method="GET">
                     <input type="hidden" name="search_type" value="pattern">
-                    <input type="text" name="name_part" placeholder="For example: Харк" required>
+                    <input type="text" name="name_part" required>
                     <button type="submit">Find</button>
                 </form>
             </td>
