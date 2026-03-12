@@ -24,10 +24,7 @@
         .back-link { font-size: 14px; color: #666; font-weight: normal; }
     </style>
 </head>
-<body>
-    <h2>Lab 3</h2>
-    <p><b>Theme:</b> Creating a website statistics page. Searching information on the site.</p>
-    
+<body> 
     <div class="menu">
         <h3>Main Menu:</h3>
         
