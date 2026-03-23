@@ -1,0 +1,17 @@
+type Student {
+    id: ID!
+    lastName: String!
+    studentGroup: String!
+    ticketNumber: String!
+}
+
+type Query {
+    getStudents: [Student]!
+    getStudent(id: ID!): Student
+}
+
+type Mutation {
+    addStudent(lastName: String!, studentGroup: String!, ticketNumber: String!): Student!
+    updateStudent(id: ID!, lastName: String, studentGroup: String, ticketNumber: String): Student!
+    deleteStudent(id: ID!): String!
+}
